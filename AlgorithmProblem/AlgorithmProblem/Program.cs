@@ -3,8 +3,8 @@
     int n = str.Length;
     AlgorithmProblem.StaticProgram.permute(str, 0, n - 1);
 
-    String[] arr = { "contribute", "geeks", "ide", "practice" };
-    String x = "ide";
+    String[] arr = { "chinki", "kumari", "singh", "strong" };
+    String x = "strong";
     int result = AlgorithmProblem.StaticProgram.binarySearch(arr, x);
 
     if (result == -1)
