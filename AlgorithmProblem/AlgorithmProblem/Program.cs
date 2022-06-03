@@ -24,11 +24,21 @@
 //------------------p4-------------------------//
 
 AlgorithmProblem.StaticProgram staticProgram = new AlgorithmProblem.StaticProgram();
-staticProgram.print_Array();
     int[] array = { 64, 34, 25, 12, 22, 11, 90 };
     AlgorithmProblem.StaticProgram.bubbleSort(array);
     Console.WriteLine("Sorted array");
-    AlgorithmProblem.StaticProgram.print_Array(arr);
+    AlgorithmProblem.StaticProgram.print_Array(array);
+
+//-------------------p5-------------------------//
+
+AlgorithmProblem.StaticProgram merge = new AlgorithmProblem.StaticProgram();
+    int[] array_merge = { 12, 11, 13, 5, 6, 7 };
+    Console.WriteLine("Given Array");
+    AlgorithmProblem.StaticProgram.printArrayMerge();
+    Merge ob = new MergeSort();
+    ob.sort(arr, 0, arr.Length - 1);
+    Console.WriteLine("\nSorted array");
+    printArrayMerge(array_merge);
 
 
 
