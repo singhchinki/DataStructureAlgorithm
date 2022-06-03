@@ -21,3 +21,14 @@
     {
         Console.WriteLine(item);
     }
+//------------------p4-------------------------//
+
+AlgorithmProblem.StaticProgram staticProgram = new AlgorithmProblem.StaticProgram();
+staticProgram.print_Array();
+    int[] array = { 64, 34, 25, 12, 22, 11, 90 };
+    AlgorithmProblem.StaticProgram.bubbleSort(array);
+    Console.WriteLine("Sorted array");
+    AlgorithmProblem.StaticProgram.print_Array(arr);
+
+
+
