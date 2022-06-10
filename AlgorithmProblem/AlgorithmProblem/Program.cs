@@ -30,15 +30,24 @@ AlgorithmProblem.StaticProgram staticProgram = new AlgorithmProblem.StaticProgra
     AlgorithmProblem.StaticProgram.print_Array(array);
 
 //-------------------p5-------------------------//
-
-AlgorithmProblem.StaticProgram merge = new AlgorithmProblem.StaticProgram();
+    AlgorithmProblem.StaticProgram merge = new AlgorithmProblem.StaticProgram();
     int[] array_merge = { 12, 11, 13, 5, 6, 7 };
     Console.WriteLine("Given Array");
     AlgorithmProblem.StaticProgram.printArrayMerge();
-    Merge ob = new MergeSort();
     ob.sort(arr, 0, arr.Length - 1);
     Console.WriteLine("\nSorted array");
     printArrayMerge(array_merge);
+
+//--------------p6-------------------//
+
+// Driver Code
+public static void Main(string[] args)
+{
+    string txt = "BACDGABCDA";
+    string pat = "ABCD";
+    search(pat, txt);
+}
+
 
 
 
